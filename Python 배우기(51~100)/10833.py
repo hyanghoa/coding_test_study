@@ -1,0 +1,6 @@
+total_r = 0
+for _ in range(int(input())):
+    a, b = map(int, input().split())
+    r = b % a
+    total_r += r
+print(total_r)
